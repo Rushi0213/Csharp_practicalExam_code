@@ -1,0 +1,44 @@
+class Palindrome
+{
+
+  public void numbers()
+{
+   
+       int num=789;
+
+       int temp=num;
+
+      while(num>0)
+        {
+         rem=rem%10;
+         rev= rev*10+rem;
+         num=num/10;
+
+         }
+     if(num==temp)
+      {
+        Console.Writeline("number is palindrome");
+  
+        }
+      else
+       {
+
+         Console.Writeline("number is not palindrome");
+        }
+
+
+
+
+
+}
+
+class Program
+{
+ public static void Main(String [] args)
+{
+
+  Palindrome p= new Palindrome();
+  p.numbers();
+}
+
+}
