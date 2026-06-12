@@ -1,25 +1,24 @@
- class program1
+ class Program1
 {
   
-  public void primenos()
+  public void PrimeNo()
 {
    int num=  5;
 
     int count=0;
 
-while(num>0)
-{
+
     if(num<2)
 {
-        Console.Writeline("number is not prime");
+        Console.WriteLine("number is not prime");
 
 }
 
 else
 {
-       for(int i<1;i<=100;i++)
+       for(int i=1;i<=num;i++)
           {
-             if(num%2==0)
+             if(num%i==0)
           {
              count++;
          }
@@ -33,26 +32,26 @@ else
 else
 {
 
-Console.WritleLine("number is not prime");
-}
-
-
-}
-
-}
-
+Console.WriteLine("number is not prime");
 }
 
 
 }
 
 
-class primeno
+
+}
+
+
+}
+
+
+class Primeno
 {
     public static void Main(string []args)
 {
-       Progrma1 p= new Program1();
-p.primenos();
+       Program1 p= new Program1();
+       p.PrimeNo();
 }
 
 }
