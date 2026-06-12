@@ -9,16 +9,12 @@ int sum=0;
 
 for(int i=0;i<arr.Lenght;i++)
 {
-   while(i>0)
-   {
-       int rem= rem%10;
-       sum= sum+rem;
-       i=i/10;
+        sum = sum + arr[i];
    } 
 
-Console.Writeline("sum of array is"+sum);
+Console.WriteLine("sum of array is"+sum);
 
-Console.Writeline("averenage of Array is"+sum/arr.Lenght);
+Console.WriteLine("average of Array is"+(sum/arr.Lenght));
 
        
 
